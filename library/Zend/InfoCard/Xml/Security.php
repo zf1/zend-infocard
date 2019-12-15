@@ -83,7 +83,7 @@ class Zend_InfoCard_Xml_Security
      * Validates the signature of a provided XML block
      *
      * @param  string $strXMLInput An XML block containing a Signature
-     * @return bool True if the signature validated, false otherwise
+     * @return string|false True if the signature validated, false otherwise
      * @throws Zend_InfoCard_Xml_Security_Exception
      */
     static public function validateXMLSignature($strXMLInput)
